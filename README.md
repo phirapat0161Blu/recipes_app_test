@@ -1,17 +1,12 @@
 # recipes
+แอปพลิเคชัน Flutter สำหรับแสดงรายการอาฟารจาก DummyJSON API ด้วยการออกแบบ list view
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # get_recipes_api
+นำเข้า api จาก https://dummyjson.com/recipes
+
+และเพิ่ม list view 
+
+# วิธีการใช้งาน API:
+ในการใช้งาน API นี้ให้ลองใช้ตัวอย่างในภาษาไทย โดยแปลข้อมูลที่ได้รับจาก API ไปใช้ในบริบทที่เกี่ยวข้องกับเนื้อหาของโพสต์ที่มีใน dummyjson.com ที่มีความเหมาะสมกับผู้ใช้งานในประเทศไทยหรือในบริบทต่างๆ ที่เกี่ยวข้อง โดยสามารถปรับใช้ข้อมูลจากโครงสร้างนี้เพื่อทำให้เข้าใจและเหมาะสมกับการใช้งานในระบบของคุณได้.
+
+การแปลงข้อมูลจาก API นี้สามารถทำได้ง่ายๆ โดยการแปลงภาษาในฟิลด์ต่างๆ เช่น การแสดงผลข้อความใน title และ body ให้อยู่ในรูปแบบlist แะข้อความ พร้อมกับการปรับแต่งเพิ่มเติมให้เหมาะสมกับกลุ่มผู้ใช้.
